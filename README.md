@@ -28,4 +28,5 @@ Command:
 
 ```bash
 git rebase <branch-name>
+
 ```
