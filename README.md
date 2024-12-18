@@ -30,3 +30,19 @@ Command:
 git rebase <branch-name>
 
 ```
+
+## Git Cherry-Pick
+
+Git cherry-pick is a way to select a specific commit from one branch and apply it to another branch. It’s useful when you want to take a particular change or bug fix from one branch and apply it to another branch without merging all the changes from that branch.
+
+- **Example**:
+
+Imagine you're working on two branches: main and develop. You’ve made several changes in develop, but there's one specific change (commit) that you want to bring over to main without merging the entire branch. Instead of merging the whole branch, you can cherry-pick just that one commit.
+
+Command:
+
+```bash
+git cherry-pick <commit-hash>
+
+
+```
